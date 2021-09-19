@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -13,11 +16,14 @@ namespace AspnetCoreSecurity1 {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices (IServiceCollection services) {
-            services.AddAuthentication ("CookieAuth").AddCookie ("cookieauth", config => {
-                config.Cookie.Name = "Grandmas.Cookie";
-            });
-
+            services.AddAuthentication ("CookieAuthentication")
+                .AddCookie ("CookieAuthentication", config => {
+                    config.Cookie.Name = "UserLoginCookie";
+                    config.LoginPath = "/Home/Authenticate";
+                    config.AccessDeniedPath = "/Login/UserAccessDenied";
+                });
             services.AddControllersWithViews ();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -27,6 +33,7 @@ namespace AspnetCoreSecurity1 {
             }
 
             app.UseRouting ();
+            app.UseAuthentication ();
             app.UseAuthorization ();
 
             app.UseEndpoints (endpoints => {
