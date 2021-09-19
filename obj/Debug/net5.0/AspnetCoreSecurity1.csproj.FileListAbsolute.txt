@@ -21,3 +21,16 @@
 /home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/ref/AspnetCoreSecurity1.dll
 /home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.pdb
 /home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.genruntimeconfig.cache
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.RazorAssemblyInfo.cache
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.RazorAssemblyInfo.cs
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/bin/Debug/net5.0/AspnetCoreSecurity1.Views.dll
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/bin/Debug/net5.0/AspnetCoreSecurity1.Views.pdb
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.TagHelpers.input.cache
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.TagHelpers.output.cache
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.RazorCoreGenerate.cache
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/Razor/Views/Home/About.cshtml.g.cs
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.RazorTargetAssemblyInfo.cs
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.Views.pdb
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/AspnetCoreSecurity1.csproj.CopyComplete
+/home/vq010/Projects/webProjects/AspnetCoreSecurity1/obj/Debug/net5.0/Razor/Views/Home/Secret.cshtml.g.cs
