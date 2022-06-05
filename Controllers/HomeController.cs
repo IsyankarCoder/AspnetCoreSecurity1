@@ -47,7 +47,7 @@ namespace AspnetCoreSecurity1 {
             var licenceIdentity = new ClaimsIdentity(licenseClaims,"Goverment");
 
             var userPrincipal = new ClaimsPrincipal (new [] { grandmaIdentity,licenceIdentity });
-              // HttpContext.SignInAsync(userPrincipal);
+            HttpContext.SignInAsync(userPrincipal);
 
             return RedirectToAction ("Index");
 
